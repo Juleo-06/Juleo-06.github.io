@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Julian Gotthardt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ── NAV ─────────────────────────────────────────────────── -->
+<nav id="nav">
+  <a href="#hero" class="n-logo">J·G</a>
+  <ul class="n-links">
+    <li><a href="#about">Über mich</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#milestones">Meilensteine</a></li>
+    <li><a href="#projects">Projekte</a></li>
+    <li><a href="#contact">Kontakt</a></li>
+  </ul>
+</nav>
+
+<!-- ── HERO ────────────────────────────────────────────────── -->
+<section id="hero">
+  <div class="hero-body">
+
+    <!-- LEFT: name -->
+    <div class="hero-left">
+      <div class="h-label" data-reveal data-delay="1">
+        <div class="h-label-line"></div>
+        <span>Portfolio · Berlin 2025</span>
+      </div>
+      <h1 data-reveal data-delay="2">
+        Julian<br><em>Gotthardt</em>
+      </h1>
+    </div>
+
+    <!-- CENTER: photo placeholder -->
+    <!-- Ersetze den Inhalt einfach mit: <img src="dein-foto.jpg" alt="Julian Gotthardt"> -->
+    <div class="hero-img-wrap" data-reveal data-delay="3">
+      <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24">
+        <rect x="3" y="3" width="18" height="18" rx="1"/>
+        <circle cx="8.5" cy="8.5" r="1.5"/>
+        <path d="M21 15l-5-5L5 21"/>
+      </svg>
+      <img src="bilder/ich-norwegen.jpeg" alt="">
+    </div>
+
+    <!-- RIGHT: tagline + cta -->
+    <div class="hero-right" data-reveal data-delay="4">
+      <p class="hero-desc">
+        Angehender Abiturient mit Fokus auf IT&nbsp;&amp;&nbsp;Elektrotechnik —
+        von IoT-Prototypen und Microcontrollern bis zu internationalen Wettbewerben.
+      </p>
+      <a href="#contact" class="btn">Kontakt aufnehmen</a>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM: stats bar -->
+  <div class="hero-bottom">
+    <div class="hero-stats" data-reveal data-delay="4">
+      <div>
+        <div class="stat-val">3×</div>
+        <div class="stat-lbl">Erasmus+-Länder</div>
+      </div>
+      <div>
+        <div class="stat-val">5/5</div>
+        <div class="stat-lbl">BwInf Punkte</div>
+      </div>
+      <div>
+        <div class="stat-val">#1</div>
+        <div class="stat-lbl">Hackathon-Platz</div>
+      </div>
+    </div>
+    <div class="scroll-hint" data-reveal data-delay="5">Scroll</div>
+  </div>
+</section>
+
+<!-- ── ABOUT ───────────────────────────────────────────────── -->
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="s-head" data-reveal>
+      <span class="s-num">01</span>
+      <h2 class="s-title serif">Über mich</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text" data-reveal data-delay="1">
+        <p>Ich bin Julian — ein technisch denkender Macher, der Konzepte nicht nur entwirft, sondern sie <strong>eigenständig umsetzt und zum Laufen bringt.</strong> Ob IoT-Prototyp, Datenbankarchitektur oder 3D-gedrucktes Gehäuse: Ich bringe Ideen vom Whiteboard in die physische Welt.</p>
+        <p>Meine Stärke liegt in der <strong>Verbindung von Hardware und Software</strong> — Sensorik mit Raspberry Pi aufbauen, ein Web-Frontend dazu programmieren und das Ganze sauber in eine Datenbank abbilden. Hands-on, von Anfang bis Ende.</p>
+        <p>Durch Erasmus+-Projekte in Norwegen, Polen und Spanien habe ich gelernt, in internationalen Teams technische Herausforderungen auf Englisch zu lösen.</p>
+        <div class="about-meta">
+          <span>📍 Leinestr. 55, 12049 Berlin</span>
+          <span>🎓 OSZ IMT · Abitur voraussichtlich Juli 2026</span>
+          <span>Leistungskurse: Informationstechnik · Englisch</span>
+        </div>
+      </div>
+      <div data-reveal data-delay="2">
+        <div class="goal-card">
+          <span class="eyebrow">Nächstes Ziel</span>
+          <p>Ab <strong>Herbst 2026</strong> suche ich einen Einstieg ins <strong>Duale Studium — Industrielle Elektrotechnik.</strong> Ich möchte mein praktisches Verständnis für Elektronik und eingebettete Systeme mit fundierter Ingenieurstheorie verbinden und echte Produkte mitgestalten, die funktionieren.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SKILLS ──────────────────────────────────────────────── -->
+<section class="section" id="skills">
+  <div class="wrap">
+    <div class="s-head" data-reveal>
+      <span class="s-num">02</span>
+      <h2 class="s-title serif">Skills</h2>
+    </div>
+    <div class="skills-wrap">
+      <div class="skill-col" data-reveal data-delay="1">
+        <p class="sk-label">Programmierung</p>
+        <div class="tags">
+          <span class="tag">Java</span>
+          <span class="tag">Node-RED</span>
+          <span class="tag">SQL</span>
+          <span class="tag">HTML / CSS</span>
+        </div>
+      </div>
+      <div class="skill-col" data-reveal data-delay="2">
+        <p class="sk-label">Daten & Architektur</p>
+        <div class="tags">
+          <span class="tag">ER-Modellierung</span>
+          <span class="tag">OOA & OOD</span>
+          <span class="tag">Datenbankdesign</span>
+          <span class="tag">Backend</span>
+        </div>
+      </div>
+      <div class="skill-col" data-reveal data-delay="3">
+        <p class="sk-label">Hardware & IoT</p>
+        <div class="tags">
+          <span class="tag">Raspberry Pi</span>
+          <span class="tag">Microcontroller</span>
+          <span class="tag">Sensorik</span>
+          <span class="tag">GPIO</span>
+          <span class="tag">TCP/IP</span>
+        </div>
+      </div>
+      <div class="skill-col" data-reveal data-delay="1">
+        <p class="sk-label">Prototyping</p>
+        <div class="tags">
+          <span class="tag">3D-Druck / FDM</span>
+          <span class="tag">CAD-Design</span>
+          <span class="tag">Netzwerk-Setup</span>
+          <span class="tag">MS Office</span>
+        </div>
+      </div>
+      <div class="skill-col" data-reveal data-delay="2">
+        <p class="sk-label">Sprachen</p>
+        <div class="tags">
+          <span class="tag">Deutsch · Muttersprache</span>
+          <span class="tag">Englisch · B2</span>
+          <span class="tag">Spanisch · A2+</span>
+        </div>
+      </div>
+      <div class="skill-col" data-reveal data-delay="3">
+        <p class="sk-label">Soft Skills</p>
+        <div class="tags">
+          <span class="tag">Teamarbeit</span>
+          <span class="tag">Eigeninitiative</span>
+          <span class="tag">Interkulturell</span>
+          <span class="tag">Problemlösung</span>
+          <span class="tag">Präsentation</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── MILESTONES ──────────────────────────────────────────── -->
+<section class="section" id="milestones">
+  <div class="wrap">
+    <div class="s-head" data-reveal>
+      <span class="s-num">03</span>
+      <h2 class="s-title serif">Meilensteine</h2>
+    </div>
+    <div class="timeline">
+
+      <div class="tl-item" data-reveal>
+        <div class="tl-date">Jun 2024</div>
+        <div class="tl-line"></div>
+        <div class="tl-body">
+          <p class="tl-cat">OSZ IMT Hackathon</p>
+          <h3 class="tl-title">1. Platz — Smart City „Spürnase"</h3>
+          <p class="tl-desc">Konzeption und Entwicklung eines voll funktionsfähigen IoT-Prototyps für eine smarte, automatisierte Fundbox. Eigenständige Integration von Füllstandsmessung, Diebstahlschutz, Kamerasteuerung und automatisiertem QR-Code-Druck. Web-Frontend im Kiosk-Modus sowie Backend-Datenbankanbindung zur lückenlosen digitalen Erfassung.</p>
+          <div class="tl-badges"><span class="badge gold">🏆 Siegerprojekt</span></div>
+          <!-- Bild: ersetze Inhalt durch <img src="hackathon.jpg" alt="Hackathon"> -->
+          <div class="tl-img">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            <span>Bild einfügen</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item" data-reveal>
+        <div class="tl-date">Jun 2024</div>
+        <div class="tl-line"></div>
+        <div class="tl-body">
+          <p class="tl-cat">Make-IT Workshop · OSZ IMT</p>
+          <h3 class="tl-title">Workshop: IoT mit dem Raspberry Pi</h3>
+          <p class="tl-desc">Vertiefung in Hardware, GPIO-Pins, Node-RED als Open-Source-IoT-Plattform, TCP/IP-Kommunikation sowie praktische Umsetzung eigener Programme auf dem Raspberry Pi.</p>
+          <div class="tl-badges"></div>
+          <div class="tl-img">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            <span>Bild einfügen</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item" data-reveal>
+        <div class="tl-date">Sep 2024</div>
+        <div class="tl-line"></div>
+        <div class="tl-body">
+          <p class="tl-cat">Erasmus+ · Norwegen 🇳🇴</p>
+          <h3 class="tl-title">Internationales IT-Projekt · Trondheim</h3>
+          <p class="tl-desc">Erasmus+-Aufenthalt an der Heimdal videregående skole. Durchführung eines englischsprachigen gemeinsamen IT-Projekts mit norwegischen Mitschülerinnen und Mitschülern.</p>
+          <div class="tl-badges"></div>
+          <div class="tl-img">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            <span>Bild einfügen</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item" data-reveal>
+        <div class="tl-date">Jan 2025</div>
+        <div class="tl-line"></div>
+        <div class="tl-body">
+          <p class="tl-cat">Bundeswettbewerb Informatik</p>
+          <h3 class="tl-title">43. BwInf 2024/2025 — Teilnahme Runde 1</h3>
+          <p class="tl-desc">Erfolgreiche Teilnahme am renommierten bundesweiten Informatikwettbewerb unter Schirmherrschaft des Bundespräsidenten. Vertiefung algorithmischer Problemlösekompetenz auf nationalem Niveau.</p>
+          <div class="tl-badges"></div>
+          <div class="tl-img">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            <span>Bild einfügen</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item" data-reveal>
+        <div class="tl-date">Apr 2025</div>
+        <div class="tl-line"></div>
+        <div class="tl-body">
+          <p class="tl-cat">Erasmus+ · Polen 🇵🇱</p>
+          <h3 class="tl-title">English Language Course · Wrocław</h3>
+          <p class="tl-desc">Erasmus+ Individual Mobility Project bei Semper Avanti in Wrocław. Sprachliche und interkulturelle Weiterbildung in einem internationalen Umfeld.</p>
+          <div class="tl-badges"></div>
+          <div class="tl-img">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            <span>Bild einfügen</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item" data-reveal>
+        <div class="tl-date">Okt 2025</div>
+        <div class="tl-line"></div>
+        <div class="tl-body">
+          <p class="tl-cat">Erasmus+ · Spanien 🇪🇸</p>
+          <h3 class="tl-title">Berufsorientierung & Robotics · Valencia</h3>
+          <p class="tl-desc">Fachspezifische Berufsorientierung am AIP Language Institute Valencia mit Fokus Robotics und technisches Problemlösen. Spanisch-Abschluss auf Nivel 3 / A2+ mit 100 % Anwesenheit.</p>
+          <div class="tl-badges"></div>
+          <div class="tl-img">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            <span>Bild einfügen</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item" data-reveal>
+        <div class="tl-date">Dez 2025</div>
+        <div class="tl-line"></div>
+        <div class="tl-body">
+          <p class="tl-cat">Bundeswettbewerb Informatik</p>
+          <h3 class="tl-title">44. BwInf 2025/2026 — Volle Punktzahl</h3>
+          <p class="tl-desc">Erneute Teilnahme mit messbarer Leistungssteigerung: Volle Punktzahl in der 1. Runde — klarer Beleg für kontinuierlich wachsende analytische Kompetenz.</p>
+          <div class="tl-badges"><span class="badge">5 / 5 Punkte</span></div>
+          <div class="tl-img">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            <span>Bild einfügen</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── PROJECTS ─────────────────────────────────────────────── -->
+<section class="section" id="projects">
+  <div class="wrap">
+    <div class="s-head" data-reveal>
+      <span class="s-num">04</span>
+      <h2 class="s-title serif">Eigene Projekte</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="proj-card" data-reveal="scale" data-delay="1">
+        <!-- Bild: <img src="portfolio.jpg" alt="Portfolio Website"> -->
+        <div class="proj-img">
+          <div class="proj-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <span>Projektbild hier einfügen</span>
+        </div>
+        <div class="proj-body">
+          <p class="proj-n">01</p>
+          <h3 class="proj-title serif">Diese Portfolio-Website</h3>
+          <p class="proj-desc">Konzeption und Umsetzung einer responsiven Portfolio-Website in reinem HTML, CSS und JavaScript — mit Scroll-Animationen via Intersection Observer, ganz ohne Framework.</p>
+          <div class="proj-tags tags">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="proj-card" data-reveal="scale" data-delay="2">
+        <div class="proj-img">
+          <div class="proj-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg>
+          </div>
+          <span>Projektbild hier einfügen</span>
+        </div>
+        <div class="proj-body">
+          <p class="proj-n">02</p>
+          <h3 class="proj-title serif">Pi-hole Netzwerk-Setup</h3>
+          <p class="proj-desc">Aufbau eines netzwerkweiten Werbeblockers auf Raspberry-Pi-Basis — inklusive DNS-Konfiguration, Webinterface-Verwaltung und Feintuning der Filterlisten.</p>
+          <div class="proj-tags tags">
+            <span class="tag">Raspberry Pi</span><span class="tag">Linux</span><span class="tag">DNS</span><span class="tag">Netzwerk</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="proj-card" data-reveal="scale" data-delay="3">
+        <div class="proj-img">
+          <div class="proj-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          </div>
+          <span>Projektbild hier einfügen</span>
+        </div>
+        <div class="proj-body">
+          <p class="proj-n">03</p>
+          <h3 class="proj-title serif">CAD-Design & 3D-Druck</h3>
+          <p class="proj-desc">Eigenständige Konstruktion und Fertigung von Hardware-Gehäusen via CAD und FDM-3D-Druck — vom Entwurf bis zum fertigen Bauteil, u. a. für den Hackathon-Prototyp.</p>
+          <div class="proj-tags tags">
+            <span class="tag">CAD</span><span class="tag">3D-Druck</span><span class="tag">FDM</span><span class="tag">Prototyping</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Zweite Reihe: Platzhalter für künftige Projekte -->
+      <div class="proj-card proj-placeholder" data-reveal="scale" data-delay="1">
+        <div class="proj-img">
+          <div class="proj-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </div>
+          <span>Projektbild hier einfügen</span>
+        </div>
+        <div class="proj-body">
+          <p class="proj-n">04</p>
+          <h3 class="proj-title serif">Demnächst</h3>
+          <p class="proj-desc">Beschreibung des Projekts hier einfügen.</p>
+          <div class="proj-tags tags"></div>
+        </div>
+      </div>
+
+      <div class="proj-card proj-placeholder" data-reveal="scale" data-delay="2">
+        <div class="proj-img">
+          <div class="proj-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </div>
+          <span>Projektbild hier einfügen</span>
+        </div>
+        <div class="proj-body">
+          <p class="proj-n">05</p>
+          <h3 class="proj-title serif">Demnächst</h3>
+          <p class="proj-desc">Beschreibung des Projekts hier einfügen.</p>
+          <div class="proj-tags tags"></div>
+        </div>
+      </div>
+
+      <div class="proj-card proj-placeholder" data-reveal="scale" data-delay="3">
+        <div class="proj-img">
+          <div class="proj-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </div>
+          <span>Projektbild hier einfügen</span>
+        </div>
+        <div class="proj-body">
+          <p class="proj-n">06</p>
+          <h3 class="proj-title serif">Demnächst</h3>
+          <p class="proj-desc">Beschreibung des Projekts hier einfügen.</p>
+          <div class="proj-tags tags"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ──────────────────────────────────────────────── -->
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div data-reveal>
+        <h2 class="contact-head serif">Lass uns<br><em>in Kontakt</em><br>treten.</h2>
+        <p class="contact-sub">Anfragen zu Dualen Studiengängen, spannenden Projekten oder einfach ein Gespräch über Technik und IoT — ich freue mich darüber.</p>
+      </div>
+      <div class="c-items" data-reveal data-delay="2">
+        <div>
+          <p class="c-lbl">E-Mail</p>
+          <a href="mailto:peisker06@gmail.com" class="c-val">peisker06@gmail.com</a>
+        </div>
+        <div>
+          <p class="c-lbl">Telefon</p>
+          <a href="tel:+4917624006791" class="c-val">+49 176 24006791</a>
+        </div>
+        <div>
+          <p class="c-lbl">Adresse</p>
+          <span class="c-val">Leinestr. 55, 12049 Berlin</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>© 2025 Julian Gotthardt</span>
+  <span>Berlin · Deutschland</span>
+</footer>
+
+<script>
+// ── Nav border on scroll ──────────────────────────────────────
+window.addEventListener('scroll', () => {
+  document.getElementById('nav').classList.toggle('up', window.scrollY > 30);
+}, { passive: true });
+
+// ── Hero: einmalig beim Laden triggern ────────────────────────
+const heroEls = new Set(document.querySelectorAll('#hero [data-reveal]'));
+window.addEventListener('load', () => {
+  heroEls.forEach(el => {
+    const delay = parseInt(el.getAttribute('data-delay') || '0') * 140;
+    setTimeout(() => el.classList.add('in'), delay);
+  });
+});
+
+// ── Bidirektionaler Observer: Animationen wiederholen sich ────
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (heroEls.has(e.target)) return;
+    e.target.classList.toggle('in', e.isIntersecting);
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+document.querySelectorAll('[data-reveal]').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
